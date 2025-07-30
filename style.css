@@ -37,7 +37,7 @@ font-size:50px;
     color: black;
 }
 /* to style the subtitle */
-#hed1 {
+.hed1 {
     text-align: center;
     text-transform: uppercase;
     line-height: 100px;
@@ -82,4 +82,11 @@ font-size:50px;
 .fig {
     text-align: center;
     text-transform: capitalize;
+}
+.aside1 {
+    width: 80%;
+    padding-left: 60px;
+    margin-left: 500px;
+    float: right;
+    background-color: palevioletred;
 }
