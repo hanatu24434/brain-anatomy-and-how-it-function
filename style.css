@@ -40,7 +40,7 @@ font-size:50px;
 .hed1 {
     text-align: center;
     text-transform: uppercase;
-    padding: 100px;
+    line-height: 100px;
 }
 /* to style the subtopic */
 .hed3 {
