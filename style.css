@@ -36,11 +36,17 @@ font-size:50px;
     text-transform: lowercase;
     color: black;
 }
-/* to style the subtitle */
+/* to style the title */
 .hed1 {
     text-align: center;
     text-transform: uppercase;
-    line-height: 100px;
+    padding: 100px;
+}
+/* to style the subtopic */
+.hed3 {
+    text-transform: capitalize;
+    text-decoration: overline;
+    
 }
 /* to make the div container to be flex  */
 .div1 {
@@ -83,10 +89,19 @@ font-size:50px;
     text-align: center;
     text-transform: capitalize;
 }
+/* styling for the sec2 */
+.sec3 {
+    display:flex;
+    flex-direction:row;
+    gap: 20pxs;
+}
+/* styling for the aside by giving it a display */
 .aside1 {
-    width: 80%;
-    padding-left: 60px;
-    margin-left: 500px;
-    float: right;
+    display:block;
+}
+/* by conecting the sec2 and sec3 to put it in the same range */
+.sec2, .sec3 {
     background-color: palevioletred;
 }
+
+
