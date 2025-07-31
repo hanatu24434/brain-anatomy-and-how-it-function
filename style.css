@@ -25,7 +25,7 @@ a:link {
  .navbar a:hover {
     background-color: rgb(136, 119, 153);
  }
-.para2 {
+.para3 {
 font-size:50px;
 }
 /* to make the <p> have same styling */
@@ -36,17 +36,27 @@ font-size:50px;
     text-transform: lowercase;
     color: black;
 }
+.para3 {
+    justify-content: flex-start;
+}
 /* to style the title */
 .hed1 {
     text-align: center;
     text-transform: uppercase;
-    line-height: 100px;
+    padding: 100px;
+    text-decoration: underline;
+    
 }
 /* to style the subtopic */
 .hed3 {
     text-transform: capitalize;
-    text-decoration: overline;
+    padding: 10px;
     
+}
+.hed4 {
+padding-left: 50px;
+padding-right: 50px;
+margin-top: 20px;
 }
 /* to make the div container to be flex  */
 .div1 {
@@ -90,6 +100,9 @@ font-size:50px;
     text-transform: capitalize;
 }
 /* styling for the sec2 */
+.sec1 {
+    background-color:rgba(0,100, 100, 20);
+}
 .sec3 {
     display:flex;
     flex-direction:row;
@@ -100,8 +113,11 @@ font-size:50px;
     display:block;
 }
 /* by conecting the sec2 and sec3 to put it in the same range */
-.sec2, .sec3 {
+.overall {
     background-color: palevioletred;
 }
-
+.ul1 {
+    padding-left: 80px;
+    padding-right: 50px;
+}
 
