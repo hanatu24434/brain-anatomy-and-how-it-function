@@ -106,11 +106,19 @@ margin-top: 20px;
 .sec3 {
     display:flex;
     flex-direction:row;
-    gap: 20pxs;
+    gap: 20px;
+}
+.sec4 {
+    display:flex;
+    flex-direction:row-reverse;
+    gap: 20px;
 }
 /* styling for the aside by giving it a display */
 .aside1 {
     display:block;
+}
+.aside2 {
+    display: flex;
 }
 /* by conecting the sec2 and sec3 to put it in the same range */
 .overall {
