@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* styling the logo */
 .logo {
     width: 50px;
@@ -11,68 +12,20 @@
     margin-top: 50px;
 }
 
-/* stye the nav */
+/* styling for more info in the header*/
+.form1 {
+    padding: 20px;
+    text-align: right;
+}
+
+/* stye the parent "navbar" */
 .navbar {
     display: flex;
     flex-direction: row;
+    
 }
 
-/* remove the underline in all the link */
-a:link {
-    text-decoration: none;
-}
-/* change the color of the link when on hover */
- .navbar a:hover {
-    background-color: rgb(136, 119, 153);
- }
-.para3 {
-font-size:50px;
-}
-/* to make the <p> have same styling */
-.para1 {
-    margin-top:20px;
-    padding-left: 50px; 
-    padding-right: 50px;
-    text-transform: lowercase;
-    color: black;
-}
-.para3 {
-    justify-content: flex-start;
-}
-/* to style the title */
-.hed1 {
-    text-align: center;
-    text-transform: uppercase;
-    padding: 100px;
-    text-decoration: underline;
-    
-}
-/* to style the subtopic */
-.hed3 {
-    text-transform: capitalize;
-    padding: 10px;
-    
-}
-.hed4 {
-padding-left: 50px;
-padding-right: 50px;
-margin-top: 20px;
-}
-/* to make the div container to be flex  */
-.div1 {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    justify-content: flex-start;
-}
-/* to add styling to the brain img */
-.brain2 {
-    display: flex;
-    width:400px;
-    height: 400px;
-    margin-top: 30px;
-}
-/* styling for the nav ,by making use of flex*/
+/* styling the child"navbar"....for the header  */
 .menu {
     display: flex;
     flex-direction: row;
@@ -80,55 +33,145 @@ margin-top: 20px;
     background-color: beige;
     position: fixed;
     width: 100%;
-    text-transform:capitalize ;
+    text-transform: capitalize;
 }
-/* styling for the nav link */
+
+/* styling for the child "nav link" */
 .menu a {
-    display:flex;
+    display: flex;
     color: grey;
     padding: 20px 20px;
-
 }
+
 /* styling for the navlink at hover */
 .menu a:hover {
-    background-color: cadetblue;
+    background-color:lightgray;
     color: black;
 }
-/* styling for the figcaption */
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+.dropdown-content {
+    display:none;
+    position: absolute;
+    min-width: 100%;
+    padding: 20px 16px;
+    z-index: 1;
+
+}
+.dropdown-content:hover {
+    background-color: coral;
+    color: #000;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color:rgba(0,50, 100, 30);
+    padding: 50px;
+}
+
+
+/* remove the underline in all the link */
+a:link {
+    text-decoration: none;
+}
+
+/* to make the <p>1 have same styling */
+.para1 {
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-transform: lowercase;
+    color: black;
+}
+
+.para3 {
+    font-size: 50px;
+}
+
+/* to make the <p>3 have same styling */
+.para3 {
+    justify-content: flex-start;
+}
+
+/* to style the title */
+.hed1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 100px;
+    text-decoration: underline;
+}
+
+/* to style the subtopic */
+.hed3 {
+    text-transform: capitalize;
+    padding: 10px;
+    /*styling for hed4  */
+}
+/* styling for hed4 */
+.hed4 {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 20px;
+}
+
+/* styling for section1 */
+.sec1 {
+    background-color: rgba(0, 100, 100, 20);
+}
+
+
+.brain2 {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    margin-top: 30px;
+}
+
+/* to make the div container to be flex  */
+.div1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
 .fig {
     text-align: center;
     text-transform: capitalize;
 }
-/* styling for the sec2 */
-.sec1 {
-    background-color:rgba(0,100, 100, 20);
-}
-.sec3 {
-    display:flex;
-    flex-direction:row;
-    gap: 20px;
-}
-.sec4 {
-    display:flex;
-    flex-direction:row-reverse;
-    gap: 20px;
-}
-/* styling for the aside by giving it a display */
-.aside1 {
-    display:block;
-}
-.aside2 {
-    display: flex;
-}
+
 /* by conecting the sec2 and sec3 to put it in the same range */
+
 .overall {
-    background-color: palevioletred;
+    background-color:rgba(0,100,50,20)
 }
+
+/* styling for section 3 */
+.sec3 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+
+.aside1 {
+    display: block;
+
+}
+
+/* styling for section4 */
+.sec4 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+
+.aside2 {
+    display: block;
+}
+
 .ul1 {
     padding-left: 80px;
     padding-right: 50px;
-}
-.form1 {
-    padding: 20px;
-    text-align: right;
 }
